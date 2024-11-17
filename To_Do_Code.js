@@ -322,7 +322,7 @@ const FinalTotalHandler = () => {
 
     // Display the total points
     info.append(`
-        <p>Total Points: ${totalPoints}</p>
+        <p><strong><em>Total Points: ${totalPoints}</em></strong></p>
     `);
 
     // Optionally, add a close button to clear the info
