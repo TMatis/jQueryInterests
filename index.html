@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do's</title>
+    <!-- include the jQuery source -->
+    <link rel="stylesheet" href="To_Do.css" />
+    <script src="./lib/jquery-3.7.1.js"></script>
+    <!-- include the file with the data -->
+    <script src="To_Do_array.js"></script>
+    <!-- Include the file with the code -->
+    <script src="To_Do_Code.js"></script>
+  </head>
+<body>
+    <header>
+        <h1>To Do's - Just Get It Done!</h1>
+        <h2>Log in to get the lists.</h2>
+      </header>
+
+      <nav>
+        <ul>
+          <li>
+            <button
+                id="Inside"
+                class="todo_list"
+                style="background: url(./images/Inside.jpg); background-size: contain"
+            ></button>
+          </li>
+          <li>
+            <button
+                id="Outside"
+                class="todo_list"
+                style="background: url(./images/Outside.jpg); background-size: contain"
+            ></button>
+          </li>
+          <li>
+            <button
+                id="Calc"
+                class="todo_list"
+                style="background: url(./images/Calc.png); background-size: contain"
+            ></button>
+          </li>
+          <li>
+            <a href="https://pages.github.iu.edu/tmatis/All-In-One/" target="_blank">
+              <button
+                id="link"
+                class="todo_list"
+                style="background: url('./images/Link.jpg'); background-size: contain;">
+                  Link
+              </button>
+            </a> <!-- https://github.iu.edu/tmatis/All-In-One -->
+          </li>
+        </ul>
+      </nav>
+  
+      
+      <div class="wrapper">
+        <div class="access">
+          <h3>Enter your account details</h3>
+          <label for="id_Name"> Name </label><br /><input
+            type="text"
+            id="id_Name"
+            name="id_Name"
+            value=""
+            maxlength="25"
+            size="20"
+          /><br />
+          <label for="id_Passcode"> Pass code </label><br /><input
+            type="text"
+            id="id_Passcode"
+            name="id_Passcode"
+            value=""
+            maxlength="25"
+            size="20"
+          /><br />
+          <button id="login">Access Your Account</button>
+        </div>
+        <div class="ToDo_List"></div>
+      </div>
+      
+      
+    <footer>
+        Copyright Timo Matis, Fall 2024
+    </footer>
+    </body>
+  </html>
+  

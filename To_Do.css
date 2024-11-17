@@ -1,0 +1,133 @@
+*{
+    color: whitesmoke;
+}
+header {
+    width: 100%;
+    height: 20vh;
+    background-color: #024059;
+    color: whitesmoke;
+    display: flex; /* How to perfectly center  */
+    align-items: center; /* items */
+    justify-content: center; /* horizontally and vertically */
+    flex-direction: column;
+}
+body {
+    background-color: #A68160;
+}
+.wrapper {
+    display: flex;
+}
+h1 {
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.access {
+    width: auto;
+    height: auto;
+    padding: 5px;
+    background-color: lightskyblue;
+    /* border: 2px solid green; */
+}
+label {
+    font-size: small;
+}
+button {
+    height: auto;
+    margin-top: 5px;
+    background-size: cover;
+    background-color: #A68160;
+}
+.todo_list {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-size: contain;
+    cursor: pointer;
+}
+nav ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+nav ul li:hover {
+    transform: scale(1.5);
+    transition: all 0.5s ease-in-out;
+}
+.ToDo_List {
+    width: 100vw;
+}
+.Inside {
+    width: 100%;
+    border: 5px solid grey;
+    height: auto;
+}
+.displayLine {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: 0.5px dashed blue;
+    align-items: center; /* Ensure items are centered vertically */
+    justify-content: space-around; /* Distribute space evenly */
+}
+.crud_buttons button {
+    display: inline-block;
+    width: auto; /* Adjust width as needed */
+    margin: 5px;
+    font-size: 12px; /* Adjust font size as needed */
+}
+
+.info {
+    flex: 0 1 350px;
+}
+
+.info img {
+    width: 20px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.showInfo {
+    /* flex: 1 0 500px; */
+    font-size: 10px;
+}
+
+.save,
+.close {
+    width: 40px;
+    font-size: 8px;
+    margin: 2px;
+}
+
+.showInfo input {
+    font-size: 8px;
+    border: 0.5px dotted red;
+}
+
+
+footer {
+    bottom: 0;
+    position: fixed;
+    background-color: #111;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+input {
+    color: #111;
+}
+
+select {
+    color: #111;
+}
+
+option {
+    color: #111;
+}
