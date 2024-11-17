@@ -56,7 +56,7 @@ const login = () => {
     $("#Outside").on("click", createPanel);
     //Add a click hander for the Outside button, and use function createPanel as the handler
     $("#Calc").on("click", createPanelTotaler);
-    //Add a click hander for the Outside button, and use function createPanel as the handler
+    //Add a click hander for the Calc button, and use function createPanel as the handler
 };
 
 const createPanel = (event, index) => {

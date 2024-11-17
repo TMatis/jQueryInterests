@@ -6,9 +6,9 @@ header {
     height: 20vh;
     background-color: #024059;
     color: whitesmoke;
-    display: flex; /* How to perfectly center  */
-    align-items: center; /* items */
-    justify-content: center; /* horizontally and vertically */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 body {
@@ -27,7 +27,6 @@ h1 {
     height: auto;
     padding: 5px;
     background-color: lightskyblue;
-    /* border: 2px solid green; */
 }
 label {
     font-size: small;
@@ -73,14 +72,14 @@ nav ul li:hover {
     display: flex;
     flex-direction: row;
     border: 0.5px dashed blue;
-    align-items: center; /* Ensure items are centered vertically */
-    justify-content: space-around; /* Distribute space evenly */
+    align-items: center;
+    justify-content: space-around;
 }
 .crud_buttons button {
     display: inline-block;
-    width: auto; /* Adjust width as needed */
+    width: auto;
     margin: 5px;
-    font-size: 12px; /* Adjust font size as needed */
+    font-size: 12px;
 }
 
 .info {
@@ -94,7 +93,6 @@ nav ul li:hover {
 }
 
 .showInfo {
-    /* flex: 1 0 500px; */
     font-size: 10px;
 }
 
